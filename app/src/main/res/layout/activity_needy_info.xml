@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/helpinghands1"
+    android:orientation="vertical"
+    android:padding="18dp"
+
+    android:layout_height="wrap_content"
+    tools:context="com.example.dell.helpinghands.ui.NeedyInfo">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Uploaded By"
+                android:textColor="@color/colortext"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="person's Name who uploaded the details"
+                android:textColor="@color/colortext"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:id="@+id/textViewname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:text="Name"
+                android:textColor="@color/colortext"
+                android:textSize="16dp" />
+
+            <EditText
+
+                android:id="@+id/editTextname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Enter Name"
+                android:inputType="textPersonName"
+                android:textColor="@color/colortext"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:id="@+id/textViewage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Age"
+                android:textColor="@color/colortext"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/edittextage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:text=""
+                android:textColor="@color/colortext"
+                android:textSize="16dp" />
+
+            <Spinner
+
+                android:id="@+id/spinnerproblem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:popupBackground="@color/popup" />
+
+
+            <Spinner xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/spinnercity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:popupBackground="@color/popup"
+                android:popupTheme="@color/popup"/>
+
+            <TextView
+                android:id="@+id/textViewaddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Address"
+                android:textColor="@color/colortext"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/edittextadd1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Address line 1"
+                android:inputType="textPersonName"
+                android:textColor="@color/colortext"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/edittextadd2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Address line 2"
+                android:inputType="textPersonName"
+                android:textColor="@color/colortext"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/edittextadd3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Address line 3"
+                android:inputType="textPersonName"
+                android:textColor="@color/colortext"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textViewcontactno.1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Contact no."
+                android:textColor="@color/colortext"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/edittextcont1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint=""
+                android:inputType="textPersonName"
+                android:textColor="@color/colortext"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/edittextcont2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Alternate contact no."
+                android:inputType="textPersonName"
+                android:textColor="@color/colortext"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textviewintent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:onClick="details"
+                android:textColor="@color/colorPrimary"
+                android:text="Click here to post Detail"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

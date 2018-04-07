@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/helpinghands1"
+    android:padding="18dp"
+    android:orientation="vertical"
+    tools:context="com.example.dell.helpinghands.ui.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/textViewtitle"
+        android:layout_marginTop="30dp"
+        android:textSize="16dp"
+        android:textColor="@color/colortext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title" />
+    <EditText
+        android:id="@+id/edittexttitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:textSize="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+    <TextView
+        android:id="@+id/textViewdes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:textColor="@color/colortext"
+        android:textSize="16dp"
+        android:text="Message" />
+
+        <EditText
+            android:id="@+id/edittextdes"
+            android:layout_width="450dp"
+            android:layout_height="200dp"
+            android:layout_marginEnd="8dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:text=""
+            android:textSize="16dp"
+            app:layout_constraintEnd_toEndOf="parent" />
+    <Button
+        android:id="@+id/buttonsave"
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="38dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:background="@color/colorbutton"
+        android:text="Save Details" />
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

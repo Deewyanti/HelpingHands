@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "601494483712",
+    "firebase_url": "https://helpinghands-42724.firebaseio.com",
+    "project_id": "helpinghands-42724",
+    "storage_bucket": "helpinghands-42724.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601494483712:android:0e4cdd1b681a31e8",
+        "android_client_info": {
+          "package_name": "com.example.dell.helpinghands"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601494483712-cf86b0vveuu86rfhuukhs7ajcaig5uuj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyMIyVKXbfXLTU21rqmsiVVc3HK2XzPmU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
